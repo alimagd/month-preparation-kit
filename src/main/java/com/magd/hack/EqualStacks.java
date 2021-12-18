@@ -55,7 +55,6 @@ public class EqualStacks {
     public static int equalStacks(List<Integer> h1, List<Integer> h2, List<Integer> h3){
         // Write your code here
         HashMap<Integer, List<Integer>> map = new HashMap<>();
-
         int[] sum = new int[3];
         map.put(0, h1);
         map.put(1, h2);
